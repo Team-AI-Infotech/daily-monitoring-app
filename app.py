@@ -14,7 +14,7 @@ st.set_page_config(
 try:
     GITHUB_TOKEN = st.secrets["GITHUB_TOKEN"]
     # Ganti dengan format: "Nama-Organisasi/Nama-Repo"
-    REPO_NAME = "NAMA_ORGANISASI_ANDA/NAMA_REPO_ANDA" 
+    REPO_NAME = "Team-AI-Infotech/metadata-extraction" 
 except:
     st.error("Konfigurasi GITHUB_TOKEN tidak ditemukan di Secrets!")
     st.stop()
